@@ -736,6 +736,7 @@ textarea.form-control {
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
+	overflow: hidden;
 }
 
 .grid figure img {
@@ -744,6 +745,12 @@ textarea.form-control {
 	min-height: auto;
 	max-width: 100%;
 	opacity: 0.8;
+	max-height: 360px;
+	object-fit: cover;
+    height: 100%;
+	width: 100%;
+	object-position: top;
+	overflow: hidden;
 }
 
 .grid figure figcaption {
