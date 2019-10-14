@@ -966,7 +966,8 @@ figure.effect-bubba:hover p {
 .github {
 	background: #222;
 	padding: 60px 0;
-	color: #fff
+	color: #fff;
+	overflow: hidden;
 }
 
 .github .pfblock-title {
