@@ -963,6 +963,28 @@ figure.effect-bubba:hover p {
 	margin-left: 3em;
 }
 
+.github {
+	background: #222;
+	padding: 60px 0;
+	color: #fff
+}
+
+.github .pfblock-title {
+	color: #fff
+}
+
+.github .pfblock-header {
+	margin: 0;
+}
+
+.github .pfblock-line {
+	margin: 10px auto;
+}
+
+.github .pfblock-subtitle {
+	font-size: 40px;
+}
+
 /* Example for media query */
 @media screen and (max-width: 30.6em) { 
 
@@ -976,3 +998,18 @@ figure.effect-bubba:hover p {
 
 }
 
+@media screen and (max-width: 600px) {
+
+	.github .pfblock-subtitle {
+		font-size: 32px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.github .pfblock-subtitle {
+		font-size: 26px;
+	}
+
+}
