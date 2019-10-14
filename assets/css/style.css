@@ -554,7 +554,8 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+	font-family: Raleway, sans-serif;
+	font-style: italic;
 }
 
 .navbar-custom .dropdown-menu {
