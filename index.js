@@ -29,6 +29,6 @@ window.onload = function() {
 
     setTimeout(function() {
         btnClick()
-    }, 250)
+    }, 1000)
     
 }
