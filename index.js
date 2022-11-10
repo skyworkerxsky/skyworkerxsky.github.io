@@ -25,6 +25,10 @@ window.onload = function() {
     }
 
     createButton()
-    btnClick()
+    // btnClick()
+
+    setTimeout(function() {
+        btnClick()
+    }, 500)
     
 }
